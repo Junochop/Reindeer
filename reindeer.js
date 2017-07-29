@@ -3,3 +3,13 @@ var reindeer = ["Dasher", "Dancer", "Prancer", "Vixen", "Comet", "Cupid", "Donne
 
 
 var hohohoElement = document.getElementById("reindeer");
+
+
+var colorsReindeer = ""; //creating an empty string? necessary?
+var reindeerNames = ""; 
+
+for (var i = 0; i < colors.length ; i++) {
+
+ hohohoElement.innerHTML += colors[i] + " " + reindeer[i] + "<br>";
+}
+
